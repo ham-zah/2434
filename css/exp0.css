@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+body {
+  font-family: "ABeeZee",sans-serif;
+  color: #555
+}
+a {
+  color: #0f9d58;
+  cursor: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline
+}
+h1,h2 {
+  font-size: 20px;
+  font-weight: normal
+}
+
+/* TABLE */
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: inherit;
+  text-align: -webkit-match-parent
+}
+
+tbody,td,tfoot,th,thead,tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0
+}
+
+table {
+  width: 100%;
+  margin-bottom: 0;
+  vertical-align: top;
+  border-color: #a6a6a6
+}
+
+table>:not(caption)>*>* {
+  padding: .5rem 0
+}
+
+table>tbody {
+  vertical-align: inherit
+}
+
+table>thead {
+  vertical-align: bottom
+}
+
+.tab1>:not(caption)>*>* {
+  padding: .25rem 0 0
+}
+
+.bordered>:not(caption)>* {
+  border-width: 1px 0
+}
+
+.bordered>:not(caption)>*>* {
+  border-width: 0 1px
+}
+
+.borderless>:not(caption)>*>* {
+  border-bottom-width: 0
+}
+
+.borderless>:not(:first-child) {
+  border-top-width: 0
+}
+
+.tab1>thead {
+  background: #fffece;
+  border: .5px solid #a6a6a6
+}
+
+.tab1 thead tr th {
+  padding: .7rem .5rem .5rem
+}
+
+.tab-in>thead {
+  background: #adeab9;
+  color: #532f00
+}
+#nama {
+  text-transform: uppercase
+}
+#ss {
+  color: #0f9d58;
+  font-weight: bold
+}
+
+#wa {
+  color: #0f9d58;
+  cursor: none
+}
+#wa:hover {
+  text-decoration: underline
+}
+
+#wa:after {
+  content: '';
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat
+}
+#wa:after {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z' fill='%230f9d58'/%3E%3C/svg%3E");
+  width: 20px;
+  height: 20px;
+  vertical-align: -4px;
+}
+
+ul.square {
+  list-style-type: square;
+}
