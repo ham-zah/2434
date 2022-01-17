@@ -55,49 +55,42 @@ body {
     transform: translate(24px,0)
   }}
 
-#gen {
-  opacity: 0;
-  margin-top: 0px;
-  animation: toO1 3s 3s forwards
-}
-.load {
-  position: fixed;
+#gen {}
+
+.loader {
+  position: absolute;
   top: 50%;
   left: calc(50% - 40px);
 }
-.dots_0 {
+.dots {
   display: inline-block;
   position: relative;
   width: 80px;
   height: 80px;
-  animation: toO0 3s 3s forwards
 }
-.dots_0 div {
+.dots div {
   position: absolute;
-  top: 0px;
+  top: 0;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  animation-timing-function: cubic-bezier(0,1,1,0)
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
-.dots_0 div:nth-child(1) {
+.dots div:nth-child(1) {
   left: 8px;
-  animation: dots_1 .6s infinite
+  animation: dots_1 0.6s infinite;
 }
-
-.dots_0 div:nth-child(2) {
+.dots div:nth-child(2) {
   left: 8px;
-  animation: dots_2 .6s infinite
+  animation: dots_2 0.6s infinite;
 }
-
-.dots_0 div:nth-child(3) {
+.dots div:nth-child(3) {
   left: 32px;
-  animation: dots_2 .6s infinite
+  animation: dots_2 0.6s infinite;
 }
-
-.dots_0 div:nth-child(4) {
+.dots div:nth-child(4) {
   left: 56px;
-  animation: dots_3 .6s infinite
+  animation: dots_3 0.6s infinite;
 }
 
 /* Gen */
