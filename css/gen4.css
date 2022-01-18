@@ -181,6 +181,41 @@ a:hover {
     transition: none
   }}
 
+/* TOP INFO
+.top-info{
+  background:#d9eee1;
+  font-size:16px;
+  padding:18px;
+  margin:0;
+}
+.top-info p{
+  font-weight:500;
+  margin-top:1em;
+  margin-bottom:1em;
+  padding:0;
+}
+.top-info a{
+  background:rgba(15,157,88,.85);
+  border-radius:5px;
+  color:#f2faf6;
+  display:inline-block;
+  font-weight:700;
+  padding-top:10px;
+  padding-right:25px;
+  padding-bottom:10px;
+  padding-left:25px;
+}
+.top-info a:hover{
+  background:#0f9d58;
+}
+.top-info u{
+  text-decoration-line:underline;
+  -moz-text-decoration-color:#0f9d58;
+  -webkit-text-decoration-color:#0f9d58;
+  text-decoration-color:#0f9d58;
+  text-decoration-thickness:2px;
+}
+
 /* Footer */
 footer {
   border-top: 1px solid #dee2e6;
