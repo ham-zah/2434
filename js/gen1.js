@@ -3,7 +3,7 @@ var top_info = '<p>Domain .com Rp65.000 stok terbatas setiap harinya</p><a href=
     footyear = '2022 &middot; ';
 
 /* Gen Variable */
-var getheader = doc.getElementsByTagName("header")[1],
+var getheader = doc.getElementsByTagName("header")[0],
     getfoota = doc.getElementById("foota");
 
 /* Home Function */
