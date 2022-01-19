@@ -1,3 +1,6 @@
+/* Home Setting */
+var NamaSold = '<span class="bb_yellow">28</span>';
+
 /* Home Variable */
 var getTrank = doc.getElementById("t-ranked"),
     getTpro = doc.getElementById("t-premium")
@@ -60,3 +63,6 @@ for(var tpro=[
 var getTlink=doc.querySelectorAll(".t-link td:nth-child(6)"),addTlink;for(addTlink=0;addTlink<getTlink.length;addTlink++){
 getTlink[addTlink].innerHTML='<a href="'+getTlink[addTlink].innerText+'"></a>'
 }
+
+/* SOLD */
+doc.getElementById("nsold").innerHTML=NamaSold;
