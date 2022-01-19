@@ -21,7 +21,7 @@ p {
   font-weight: 500
 }
 .title1 b {
-  color: #fff;
+  color: #f2faf6;
   font-weight: 500;
   padding-right: 4px;
   padding-left: 4px;
@@ -57,7 +57,7 @@ p {
   -webkit-overflow-scrolling: touch
 }
 thead {
-  color: #fff
+  color: #f2faf6
 }
 thead th {
   font-weight: 500
@@ -159,7 +159,7 @@ table>thead {
 .cta-text {}
 .cta-btn {
   background-image: linear-gradient(to bottom right,#0f9d58,rgba(15,157,88,.85));
-  color: #fff;
+  color: #f2faf6;
   border-radius: 99em;
   padding: .375rem .75rem
 }
