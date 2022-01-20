@@ -8,13 +8,13 @@ var getTrank = doc.getElementById("t-ranked"),
 /* TABLE RANKED DOMAIN */
 for(var trank=[
 [
-  "teratasi.com",
-  "8",
-  "40",
-  "3%",
-  "2000",
-  "https://teratasi.com",
-  "Rp90.000"
+  "guruasik.com",
+  "10",
+  "34",
+  "9%",
+  "10.095",
+  "https://nama.business/?exp=guruasik.com&d=1",
+  "Rp120.000"
 ],
 [
   "foxpop.co.uk",
@@ -33,15 +33,6 @@ for(var trank=[
   "242.018",
   "https://nama.business/?exp=phosfor.co&d=3",
   "Rp50.000"
-],
-[
-  "guruasik.com",
-  "10",
-  "34",
-  "9%",
-  "10.095",
-  "https://nama.business/?exp=guruasik.com&d=4",
-  "Rp120.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
