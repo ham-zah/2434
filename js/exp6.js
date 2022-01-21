@@ -2,7 +2,8 @@ var nd = [
   "example.com",
   "guruasik.com",
   "foxpop.co.uk",
-  "phosfor.co"
+  "phosfor.co",
+  "iliamember.com"
 ];
 
 var exp= [
@@ -98,6 +99,24 @@ exp=[nd[3],
   "8",
   "43",
   "0"
+];
+if(ls.indexOf(nd[4]+"&d=4")>-1)
+exp=[nd[4],
+  "70.000",
+  "2020",
+  "31-12-2021",
+  "31-12-2022",
+  "4",
+  "30",
+  "2%",
+  "319",
+  "3",
+  "3.0",
+  "11.311.296",
+  "16",
+  "22",
+  "-",
+  "-"
 ];
 
 /* Title */
