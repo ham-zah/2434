@@ -33,6 +33,15 @@ for(var trank=[
   "242.018",
   "https://nama.business/?exp=phosfor.co&d=3",
   "Rp50.000"
+],
+[
+  "iliamember.com",
+  "4",
+  "30",
+  "2%",
+  "319",
+  "https://nama.business/?exp=iliamember.com&d=4",
+  "Rp70.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
