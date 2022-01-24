@@ -8,21 +8,12 @@ var getTrank = doc.getElementById("t-ranked"),
 /* TABLE RANKED DOMAIN */
 for(var trank=[
 [
-  "guruasik.com",
-  "10",
-  "34",
-  "9%",
-  "10.095",
-  "/?exp=guruasik.com&d=1",
-  "Rp120.000"
-],
-[
   "foxpop.co.uk",
   "22",
   "30",
   "0%",
   "844",
-  "https://foxpop.co.uk",
+  "/?exp=foxpop.co.uk&d=1",
   "Rp70.000"
 ],
 [
@@ -31,7 +22,7 @@ for(var trank=[
   "41",
   "48%",
   "242.018",
-  "/?exp=phosfor.co&d=3",
+  "/?exp=phosfor.co&d=2",
   "Rp50.000"
 ],
 [
@@ -40,7 +31,7 @@ for(var trank=[
   "30",
   "2%",
   "319",
-  "/?exp=iliamember.com&d=4",
+  "/?exp=iliamember.com&d=3",
   "Rp70.000"
 ],
 [
@@ -49,7 +40,7 @@ for(var trank=[
   "20",
   "0%",
   "213",
-  "/?exp=transinema.com&d=5",
+  "/?exp=transinema.com&d=4",
   "Rp140.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
