@@ -1,6 +1,5 @@
 var nd = [
   "example.com",
-  "guruasik.com",
   "foxpop.co.uk",
   "phosfor.co",
   "iliamember.com",
@@ -44,28 +43,9 @@ exp=[nd[0],
   "10",
   "10"
 ];
-/* GURUASIK.COM */
+/* FOXPOP.CO.UK */
 if(ls.indexOf(nd[1]+"&d=1")>-1)
 exp=[nd[1],
-  "120.000",
-  "2021",
-  "14-01-2022",
-  "14-01-2023",
-  "10",
-  "34",
-  "9%",
-  "10.033",
-  "3",
-  "3.4",
-  "53.975.404",
-  "1",
-  "7",
-  "106",
-  "46"
-];
-/* FOXPOP.CO.UK */
-if(ls.indexOf(nd[2]+"&d=2")>-1)
-exp=[nd[2],
   "70.000",
   "2001",
   "13-01-2021",
@@ -83,8 +63,8 @@ exp=[nd[2],
   "0"
 ];
 /* PHOSFOR.CO */
-if(ls.indexOf(nd[3]+"&d=3")>-1)
-exp=[nd[3],
+if(ls.indexOf(nd[2]+"&d=2")>-1)
+exp=[nd[2],
   "50.000",
   "2013",
   "16-11-2021",
@@ -102,8 +82,8 @@ exp=[nd[3],
   "0"
 ];
 /* 
-if(ls.indexOf(nd[4]+"&d=4")>-1)
-exp=[nd[4],
+if(ls.indexOf(nd[3]+"&d=3")>-1)
+exp=[nd[3],
   "70.000",
   "2020",
   "31-12-2021",
@@ -121,8 +101,8 @@ exp=[nd[4],
   "0"
 ];
 /* TRANSINEMA.COM */
-if(ls.indexOf(nd[5]+"&d=5")>-1)
-exp=[nd[5],
+if(ls.indexOf(nd[4]+"&d=4")>-1)
+exp=[nd[4],
   "140.000",
   "2002",
   "24-01-2022",
