@@ -13,7 +13,7 @@ for(var trank=[
   "34",
   "9%",
   "10.095",
-  "https://nama.business/?exp=guruasik.com&d=1",
+  "/?exp=guruasik.com&d=1",
   "Rp120.000"
 ],
 [
@@ -31,7 +31,7 @@ for(var trank=[
   "41",
   "48%",
   "242.018",
-  "https://nama.business/?exp=phosfor.co&d=3",
+  "/?exp=phosfor.co&d=3",
   "Rp50.000"
 ],
 [
@@ -40,7 +40,7 @@ for(var trank=[
   "30",
   "2%",
   "319",
-  "https://nama.business/?exp=iliamember.com&d=4",
+  "/?exp=iliamember.com&d=4",
   "Rp70.000"
 ],
 [
@@ -49,7 +49,7 @@ for(var trank=[
   "20",
   "0%",
   "213",
-  "https://nama.business/?exp=transinema.com&d=5",
+  "/?exp=transinema.com&d=5",
   "Rp140.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
