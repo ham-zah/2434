@@ -42,6 +42,15 @@ for(var trank=[
   "319",
   "https://nama.business/?exp=iliamember.com&d=4",
   "Rp70.000"
+],
+[
+  "transinema.com",
+  "14",
+  "20",
+  "0%",
+  "213",
+  "https://nama.business/?exp=transinema.com&d=5",
+  "Rp140.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
