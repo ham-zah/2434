@@ -81,7 +81,7 @@ exp=[nd[2],
   "43",
   "0"
 ];
-/* 
+/* ILIAMEMBER.COM */
 if(ls.indexOf(nd[3]+"&d=3")>-1)
 exp=[nd[3],
   "70.000",
