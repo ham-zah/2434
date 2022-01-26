@@ -42,6 +42,15 @@ for(var trank=[
   "213",
   "/?exp=transinema.com&d=4",
   "Rp140.000"
+],
+[
+  "jurnalku.me",
+  "18",
+  "25",
+  "5%",
+  "3.073",
+  "/?exp=jurnalku.me&d=5",
+  "Rp120.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
