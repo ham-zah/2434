@@ -3,7 +3,8 @@ var nd = [
   "foxpop.co.uk",
   "phosfor.co",
   "iliamember.com",
-  "transinema.com"
+  "transinema.com",
+  "jurnalku.me"
 ];
 
 var exp= [
@@ -117,6 +118,25 @@ exp=[nd[4],
   "0",
   "13",
   "0",
+  "0"
+];
+/* JURNALKU.ME */
+if(ls.indexOf(nd[5]+"&d=5")>-1)
+exp=[nd[5],
+  "120.000",
+  "2002",
+  "26-01-2022",
+  "26-01-2023",
+  "18",
+  "25",
+  "5%",
+  "-",
+  "-",
+  "-",
+  "50.081.807",
+  "2",
+  "13",
+  "3.073",
   "0"
 ];
 
