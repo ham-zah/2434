@@ -1,5 +1,5 @@
 /* Gen Setting */
-var top_info = '<p>Sedang Maintenance, estimasi selesai jam 23:30</p><a href="https://hamdaniazzah.my.id" target="_blank">Order Sekarang &raquo;</a>',
+var top_info = '<p>Ranked Domain Backlink Edu</p><a href="https://hamdaniazzah.my.id" target="_blank">Order Sekarang &raquo;</a>',
     footyear = '2022 &middot; ';
 
 /* Gen Variable */
