@@ -3,8 +3,7 @@ var nd = [
   "foxpop.co.uk",
   "phosfor.co",
   "iliamember.com",
-  "transinema.com",
-  "serpina.tech"
+  "transinema.com"
 ];
 
 var exp= [
@@ -118,25 +117,6 @@ exp=[nd[4],
   "0",
   "13",
   "0",
-  "0"
-];
-/* SERPINA.TECH */
-if(ls.indexOf(nd[5]+"&d=5")>-1)
-exp=[nd[5],
-  "50.000",
-  "2016",
-  "29-01-2022",
-  "29-01-2023",
-  "12",
-  "32",
-  "0%",
-  "663",
-  "3",
-  "3.2",
-  "41.835.518",
-  "3",
-  "10",
-  "62",
   "0"
 ];
 
