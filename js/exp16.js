@@ -3,7 +3,8 @@ var nd = [
   "foxpop.co.uk",
   "phosfor.co",
   "iliamember.com",
-  "transinema.com"
+  "transinema.com",
+  "rachmadbagus.com"
 ];
 
 var exp= [
@@ -118,6 +119,25 @@ exp=[nd[4],
   "13",
   "0",
   "0"
+];
+/* RACHMADBAGUS.COM */
+if(ls.indexOf(nd[5]+"&d=5")>-1)
+exp=[nd[5],
+  "90.000",
+  "2018",
+  "31-01-2022",
+  "31-01-2023",
+  "12",
+  "26",
+  "7%",
+  "4.904",
+  "3",
+  "2.6",
+  "91.990.874",
+  "0",
+  "4",
+  "33",
+  "14"
 ];
 
 /* Title */
