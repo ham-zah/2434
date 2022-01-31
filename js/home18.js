@@ -1,5 +1,5 @@
 /* Home Setting */
-var NamaSold = '<span class="bb_yellow">32</span>';
+var NamaSold = '<span class="bb_yellow">33</span>';
 
 /* Home Variable */
 var getTrank = doc.getElementById("t-ranked"),
@@ -43,6 +43,15 @@ for(var trank=[
   "/?exp=transinema.com&d=4",
   "Rp140.000"
 ],
+[
+  "rachmadbagus.com",
+  "12",
+  "26",
+  "7%",
+  "4.904",
+  "/?exp=rachmadbagus.com&d=5",
+  "Rp90.000"
+]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
 /* TABLE PREMIUM DOMAIN */
