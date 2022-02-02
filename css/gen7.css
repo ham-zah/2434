@@ -195,7 +195,7 @@ a:hover {
   padding:0;
 }
 .top-info a{
-  background:rgba(15,157,88,.85);
+  background:#0f9d58;
   border-radius:5px;
   color:#f2faf6;
   display:inline-block;
@@ -206,7 +206,7 @@ a:hover {
   padding-left:25px;
 }
 .top-info a:hover{
-  background:#0f9d58;
+  background:rgba(15,157,88,.85);
 }
 .top-info u{
   text-decoration-line:underline;
