@@ -172,7 +172,18 @@ table>thead {
   background-color: rgba(0,0,0,.03);
   border-top: 1px solid rgba(0,0,0,.125)
 }
-
+/* Footer Tab */
+  .f-tab {
+    background: #273443;
+    color: #f2faf6;
+    border-radius: 10px;
+  }
+  .f-tab div {
+    padding: 10px
+  }
+  .f-tab a {
+    color: #f2faf6
+  }
 /* Poweredby */
 .poweredby span {
   border-bottom: 2px solid #ffd600;
