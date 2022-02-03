@@ -51,6 +51,15 @@ for(var trank=[
   "4.904",
   "/?exp=rachmadbagus.com&d=5",
   "Rp100.000"
+],
+[
+  "contohsurat.me",
+  "18",
+  "30",
+  "0%",
+  "962",
+  "/?exp=contohsurat.me&d=6",
+  "Rp75.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
