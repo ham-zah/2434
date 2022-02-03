@@ -4,7 +4,8 @@ var nd = [
   "phosfor.co",
   "iliamember.com",
   "transinema.com",
-  "rachmadbagus.com"
+  "rachmadbagus.com",
+  "contohsurat.me"
 ];
 
 var exp= [
@@ -138,6 +139,25 @@ exp=[nd[5],
   "4",
   "33",
   "14"
+];
+/* CONTOHSURAT.ME */
+if(ls.indexOf(nd[6]+"&d=6")>-1)
+exp=[nd[6],
+  "75.000",
+  "2016",
+  "03-02-2022",
+  "03-02-2023",
+  "18",
+  "30",
+  "0%",
+  "962",
+  "3",
+  "3.0",
+  "50.015.615",
+  "2",
+  "5",
+  "145",
+  "0"
 ];
 
 /* Title */
