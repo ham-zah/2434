@@ -1,5 +1,5 @@
 /* Home Setting */
-var NamaSold = '<span class="bb_yellow">33</span>';
+var NamaSold = '<span class="bb_yellow">35</span>';
 
 /* Home Variable */
 var getTrank = doc.getElementById("t-ranked"),
