@@ -2,8 +2,27 @@
 var NamaSold = '<span class="bb_yellow">39</span>';
 
 /* Home Variable */
-var getTrank = doc.getElementById("t-ranked"),
-    getTpro = doc.getElementById("t-premium")
+var getTreg = doc.getElementById("t-register"),
+    getTrank = doc.getElementById("t-ranked"),
+    getTpro = doc.getElementById("t-premium");
+
+/* TABLE REGISTER DOMAIN */
+for(var treg=[
+["com","Rp65.000","Terbatas"],
+["co","Rp45.000","Tersedia"],
+["xyz","Rp20.000","Tersedia"],
+["info","Rp40.000","Tersedia"],
+["biz","Rp25.000","Tersedia"],
+["us","Rp35.000","Tersedia"],
+["uk","Rp35.000","Terbatas"],
+["co.uk","Rp40.000","Terbatas"],
+["life","Rp40.000","Tersedia"],
+["live","Rp40.000","Tersedia"],
+["cloud","Rp40.000","Tersedia"],
+["cyou","Rp20.000","Tersedia"],
+["company","Rp50.000","Tersedia"],
+["business","Rp50.000","Tersedia"]
+],i=0;i<treg.length;i++){const e=doc.createElement("tr");for(var j=0;j<treg[i].length;j++){const r=doc.createElement("td");r.innerHTML=treg[i][j],e.appendChild(r)}getTreg.appendChild(e)}
 
 /* TABLE RANKED DOMAIN */
 for(var trank=[
