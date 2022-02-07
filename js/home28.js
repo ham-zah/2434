@@ -79,6 +79,15 @@ for(var trank=[
   "962",
   "https://contohsurat.me",
   "Rp75.000"
+],
+[
+  "domainiac.tech",
+  "11",
+  "20",
+  "0%",
+  "377",
+  "/?exp=domainiac.tech&d=7",
+  "Rp50.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
