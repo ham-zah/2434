@@ -86,7 +86,7 @@ for(var trank=[
   "20",
   "0%",
   "378",
-  "/?exp=domainiac.tech&d=7",
+  "https://domainiac.tech",
   "Rp50.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
