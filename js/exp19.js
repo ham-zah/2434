@@ -5,7 +5,8 @@ var nd = [
   "iliamember.com",
   "transinema.com",
   "rachmadbagus.com",
-  "contohsurat.me"
+  "contohsurat.me",
+  "domainiac.tech"
 ];
 
 var exp= [
@@ -157,6 +158,25 @@ exp=[nd[6],
   "2",
   "5",
   "145",
+  "0"
+];
+/* DOMAINIAC.TECH */
+if(ls.indexOf(nd[7]+"&d=7")>-1)
+exp=[nd[7],
+  "50.000",
+  "2018",
+  "07-02-2022",
+  "07-02-2023",
+  "11",
+  "20",
+  "0%",
+  "378",
+  "2",
+  "2.0",
+  "42.086.206",
+  "3",
+  "6",
+  "0",
   "0"
 ];
 
