@@ -90,6 +90,15 @@ for(var trank=[
   "378",
   "https://domainiac.tech",
   "Rp50.000"
+],
+[
+  "jasarumahbangunan.com",
+  "13",
+  "36",
+  "3%",
+  "72.594",
+  "/?exp=jasarumahbangunan.com&d=8",
+  "Rp120.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
