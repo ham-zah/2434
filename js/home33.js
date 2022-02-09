@@ -1,5 +1,5 @@
 /* Home Setting */
-var NamaSold = '<span class="bb_yellow">40</span>';
+var NamaSold = '<span class="bb_yellow">41</span>';
 
 /* Home Variable */
 var getTreg = doc.getElementById("t-register"),
@@ -90,15 +90,6 @@ for(var trank=[
   "378",
   "https://domainiac.tech",
   "Rp50.000"
-],
-[
-  "jasarumahbangunan.com",
-  "13",
-  "36",
-  "3%",
-  "72.594",
-  "https://jasarumahbangunan.com",
-  "Rp120.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
