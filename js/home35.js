@@ -90,6 +90,15 @@ for(var trank=[
   "378",
   "https://domainiac.tech",
   "Rp50.000"
+],
+[
+  "bukupendidikan.com",
+  "4",
+  "41",
+  "5%",
+  "1.816",
+  "/?exp=bukupendidikan.com&d=8",
+  "Rp120.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
