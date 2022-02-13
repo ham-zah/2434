@@ -7,7 +7,8 @@ var nd = [
   "rachmadbagus.com",
   "contohsurat.me",
   "domainiac.tech",
-  "bukupendidikan.com"
+  "bukupendidikan.com",
+  "bisnis.live"
 ];
 
 var exp= [
@@ -198,6 +199,25 @@ exp=[nd[8],
   "56",
   "38",
   "17"
+];
+/* BISNIS.LIVE */
+if(ls.indexOf(nd[8]+"&d=8")>-1)
+exp=[nd[8],
+  "120.000",
+  "-",
+  "13-02-2022",
+  "13-02-2023",
+  "7",
+  "15",
+  "0%",
+  "112",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "0",
+  "0"
 ];
 /* Title */
 document.title = exp[0]+" - Nama Business Registrant";
