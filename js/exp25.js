@@ -201,8 +201,8 @@ exp=[nd[8],
   "17"
 ];
 /* BISNIS.LIVE */
-if(ls.indexOf(nd[8]+"&d=8")>-1)
-exp=[nd[8],
+if(ls.indexOf(nd[9]+"&d=9")>-1)
+exp=[nd[9],
   "120.000",
   "-",
   "13-02-2022",
