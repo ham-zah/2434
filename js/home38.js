@@ -29,31 +29,13 @@ for(var treg=[
 /* TABLE RANKED DOMAIN */
 for(var trank=[
 [
-  "foxpop.co.uk",
-  "22",
-  "30",
-  "0%",
-  "844",
-  "https://foxpop.co.uk",
-  "Rp70.000"
-],
-[
-  "phosfor.co",
+  "rachmadbagus.com",
+  "12",
   "26",
-  "41",
-  "48%",
-  "242.018",
-  "/?exp=phosfor.co&d=2",
-  "Rp50.000"
-],
-[
-  "iliamember.com",
-  "4",
-  "30",
-  "2%",
-  "319",
-  "/?exp=iliamember.com&d=3",
-  "Rp70.000"
+  "7%",
+  "5.555",
+  "/?exp=rachmadbagus.com&d=1",
+  "Rp100.000"
 ],
 [
   "transinema.com",
@@ -61,25 +43,43 @@ for(var trank=[
   "20",
   "0%",
   "213",
-  "/?exp=transinema.com&d=4",
+  "/?exp=transinema.com&d=2",
   "Rp140.000"
 ],
 [
-  "rachmadbagus.com",
-  "12",
+  "iliamember.com",
+  "4",
+  "30",
+  "2%",
+  "316",
+  "/?exp=iliamember.com&d=3",
+  "Rp70.000"
+],
+[
+  "phosfor.co",
   "26",
-  "7%",
-  "4.904",
-  "/?exp=rachmadbagus.com&d=5",
-  "Rp100.000"
+  "41",
+  "40%",
+  "241.117",
+  "/?exp=phosfor.co&d=4",
+  "Rp50.000"
+],
+[
+  "foxpop.co.uk",
+  "22",
+  "30",
+  "0%",
+  "842",
+  "/?exp=foxpop.co.uk&d=5",
+  "Rp70.000"
 ],
 [
   "contohsurat.me",
   "18",
   "30",
   "0%",
-  "962",
-  "https://contohsurat.me",
+  "961",
+  "/?exp=contohsurat.me&d=6",
   "Rp75.000"
 ],
 [
@@ -88,17 +88,8 @@ for(var trank=[
   "20",
   "0%",
   "378",
-  "https://domainiac.tech",
+  "//exp=domainiac.tech&d=7",
   "Rp50.000"
-],
-[
-  "bukupendidikan.com",
-  "4",
-  "41",
-  "5%",
-  "1.816",
-  "/?exp=bukupendidikan.com&d=8",
-  "Rp120.000"
 ],
 [
   "bisnis.live",
@@ -106,7 +97,7 @@ for(var trank=[
   "15",
   "0%",
   "112",
-  "/?exp=bisnis.live&d=9",
+  "/?exp=bisnis.live&d=8",
   "Rp120.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
