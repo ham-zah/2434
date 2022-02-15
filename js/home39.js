@@ -88,7 +88,7 @@ for(var trank=[
   "20",
   "0%",
   "378",
-  "//exp=domainiac.tech&d=7",
+  "/exp=domainiac.tech&d=7",
   "Rp50.000"
 ],
 [
