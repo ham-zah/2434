@@ -56,21 +56,12 @@ for(var trank=[
   "Rp70.000"
 ],
 [
-  "phosfor.co",
-  "26",
-  "41",
-  "40%",
-  "241.117",
-  "/?exp=phosfor.co&d=4",
-  "Rp50.000"
-],
-[
   "foxpop.co.uk",
   "22",
   "30",
   "0%",
   "842",
-  "/?exp=foxpop.co.uk&d=5",
+  "/?exp=foxpop.co.uk&d=4",
   "Rp70.000"
 ],
 [
@@ -79,7 +70,7 @@ for(var trank=[
   "30",
   "0%",
   "961",
-  "/?exp=contohsurat.me&d=6",
+  "/?exp=contohsurat.me&d=5",
   "Rp75.000"
 ],
 [
@@ -88,7 +79,7 @@ for(var trank=[
   "20",
   "0%",
   "378",
-  "/?exp=domainiac.tech&d=7",
+  "/?exp=domainiac.tech&d=6",
   "Rp50.000"
 ],
 [
@@ -97,7 +88,7 @@ for(var trank=[
   "15",
   "0%",
   "112",
-  "/?exp=bisnis.live&d=8",
+  "/?exp=bisnis.live&d=7",
   "Rp120.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
