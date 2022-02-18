@@ -3,7 +3,6 @@ var nd = [
   "rachmadbagus.com",
   "transinema.com",
   "iliamember.com",
-  "phosfor.co",
   "foxpop.co.uk",
   "contohsurat.me",
   "domainiac.tech",
@@ -89,25 +88,9 @@ exp=[nd[3],
   "0",
   "0"
 ];
-/* PHOSFOR.CO */
+/* FOXPOP.CO.UK */
 if(ls.indexOf(nd[4]+"&d=4")>-1)
 exp=[nd[4],
-  "50.000",
-  "2013",
-  "16-11-2021",
-  "16-11-2022",
-  "26",
-  "41",
-  "40%",
-  "4",
-  "4.1",
-  "241.117",
-  "43",
-  "0"
-];
-/* FOXPOP.CO.UK */
-if(ls.indexOf(nd[5]+"&d=5")>-1)
-exp=[nd[5],
   "70.000",
   "2001",
   "13-01-2021",
@@ -122,8 +105,8 @@ exp=[nd[5],
   "0"
 ];
 /* CONTOHSURAT.ME */
-if(ls.indexOf(nd[6]+"&d=6")>-1)
-exp=[nd[6],
+if(ls.indexOf(nd[5]+"&d=5")>-1)
+exp=[nd[5],
   "75.000",
   "2016",
   "03-02-2022",
@@ -138,8 +121,8 @@ exp=[nd[6],
   "0"
 ];
 /* DOMAINIAC.TECH */
-if(ls.indexOf(nd[7]+"&d=7")>-1)
-exp=[nd[7],
+if(ls.indexOf(nd[6]+"&d=6")>-1)
+exp=[nd[6],
   "50.000",
   "2018",
   "07-02-2022",
@@ -154,8 +137,8 @@ exp=[nd[7],
   "0"
 ];
 /* BISNIS.LIVE */
-if(ls.indexOf(nd[8]+"&d=8")>-1)
-exp=[nd[8],
+if(ls.indexOf(nd[7]+"&d=7")>-1)
+exp=[nd[7],
   "120.000",
   "2018",
   "13-02-2022",
