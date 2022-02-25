@@ -17,7 +17,6 @@ for(var treg=[
 ["biz","Rp25.000","Tersedia"],
 ["us","Rp35.000","Tersedia"],
 ["uk","Rp35.000","Terbatas"],
-["co.uk","Rp40.000","Terbatas"],
 ["life","Rp40.000","Tersedia"],
 ["live","Rp40.000","Tersedia"],
 ["cloud","Rp40.000","Tersedia"],
@@ -53,15 +52,6 @@ for(var trank=[
   "2%",
   "316",
   "/?exp=iliamember.com&d=3",
-  "Rp70.000"
-],
-[
-  "foxpop.co.uk",
-  "22",
-  "30",
-  "0%",
-  "842",
-  "/?exp=foxpop.co.uk&d=4",
   "Rp70.000"
 ],
 [
