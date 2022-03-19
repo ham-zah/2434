@@ -1,5 +1,5 @@
 /* Gen Setting */
-var top_info = '<p>Register domain .com Rp65.000 1 tahun, stok terbatas setiap harinya</p><a href="https://hamdaniazzah.my.id" rel="nofollow noopener" target="_blank">Order Sekarang &raquo;</a>',
+var top_info = '<p>Register domain .com Rp65.000 1 tahun, stok terbatas setiap harinya</p><a href="https://wa.me/message/KQ6YMLX3M62ZJ1" rel="nofollow noopener" target="_blank">Order Sekarang &raquo;</a>',
     footyear = '2022 &middot; ';
 
 /* Gen Variable */
