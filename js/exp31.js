@@ -24,7 +24,7 @@ var exp= [
   "#GOV"
 ];
 /* EXAMPLE */
-if(ls.match(/\bexp=example.com$/)>-1)
+if(ls.match(/\bexp=example.com$/)){
 exp=[
   "example.com",
   "65.000",
@@ -39,7 +39,7 @@ exp=[
   "1.000.000",
   "10",
   "10"
-];
+]}
 
 /* RACHMADBAGUS.COM */
 if(ls.indexOf(nd[1]+"&d=1")>-1)
