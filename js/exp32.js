@@ -1,13 +1,4 @@
-var nd = [
-  "example.com",
-  "rachmadbagus.com",
-  "transinema.com",
-  "iliamember.com",
-  "foxpop.co.uk",
-  "contohsurat.me",
-  "domainiac.tech",
-  "bisnis.live"
-];
+
 var exp= [
   "#domain",
   "#PRICE",
@@ -42,8 +33,9 @@ exp=[
 ]}
 
 /* RACHMADBAGUS.COM */
-if(ls.indexOf(nd[1]+"&d=1")>-1)
-exp=[nd[1],
+if(ls.match(/\bexp=rachmadbagus.com$/)){
+exp=[
+  "rachmadbagus.com",
   "100.000",
   "2018",
   "31-01-2022",
@@ -56,10 +48,11 @@ exp=[nd[1],
   "5.555",
   "14",
   "35"
-];
+]}
 /* TRANSINEMA.COM */
-if(ls.indexOf(nd[2]+"&d=2")>-1)
-exp=[nd[2],
+if(ls.match(/\bexp=transinema.com$/)){
+exp=[
+  "transinema.com",
   "140.000",
   "2002",
   "24-01-2022",
@@ -72,10 +65,11 @@ exp=[nd[2],
   "213",
   "0",
   "0"
-];
+]}
 /* ILIAMEMBER.COM */
-if(ls.indexOf(nd[3]+"&d=3")>-1)
-exp=[nd[3],
+if(ls.match(/\bexp=iliamember.com$/)){
+exp=[
+  "iliamember.com",
   "70.000",
   "2020",
   "31-12-2021",
@@ -88,10 +82,11 @@ exp=[nd[3],
   "316",
   "0",
   "0"
-];
+]}
 /* FOXPOP.CO.UK */
-if(ls.indexOf(nd[4]+"&d=4")>-1)
-exp=[nd[4],
+if(ls.match(/\bexp=foxpop.co.uk$/)){
+exp=[
+  "foxpop.co.uk",
   "70.000",
   "2001",
   "13-01-2021",
@@ -104,26 +99,11 @@ exp=[nd[4],
   "844",
   "289",
   "0"
-];
-/* CONTOHSURAT.ME */
-if(ls.indexOf(nd[5]+"&d=5")>-1)
-exp=[nd[5],
-  "75.000",
-  "2016",
-  "03-02-2022",
-  "03-02-2023",
-  "18",
-  "30",
-  "0%",
-  "3",
-  "3.0",
-  "962",
-  "145",
-  "0"
-];
+]}
 /* DOMAINIAC.TECH */
-if(ls.indexOf(nd[6]+"&d=6")>-1)
-exp=[nd[6],
+if(ls.match(/\bexp=domainiac.tech$/)){
+exp=[
+  "domainiac.tech",
   "50.000",
   "2018",
   "07-02-2022",
@@ -136,10 +116,11 @@ exp=[nd[6],
   "378",
   "0",
   "0"
-];
+]}
 /* BISNIS.LIVE */
-if(ls.indexOf(nd[7]+"&d=7")>-1)
-exp=[nd[7],
+if(ls.match(/\bexp=bisnis.live$/)){
+exp=[
+  "bisnis.live",
   "120.000",
   "2018",
   "13-02-2022",
@@ -152,7 +133,7 @@ exp=[nd[7],
   "112",
   "0",
   "0"
-];
+]}
 
 /* TITLE */
 document.title = exp[0]+" - Nama Business Registrant";
