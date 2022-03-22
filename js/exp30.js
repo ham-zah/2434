@@ -24,8 +24,9 @@ var exp= [
   "#GOV"
 ];
 /* EXAMPLE */
-if(ls.indexOf(nd[0]+"&d=0")>-1)
-exp=[nd[0],
+if(ls.match(/\bexp=example.com$/)>-1)
+exp=[
+  "example.com",
   "65.000",
   "2021",
   "25-10-2021",
