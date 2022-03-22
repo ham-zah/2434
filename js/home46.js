@@ -1,5 +1,5 @@
 /* Home Setting */
-var NamaSold = '<span class="bb_yellow">62</span>';
+var NamaSold = '<span class="bb_yellow">64</span>';
 
 /* Home Variable */
 var getTreg = doc.getElementById("t-register"),
@@ -53,15 +53,6 @@ for(var trank=[
   "316",
   "/?exp=iliamember.com&d=3",
   "Rp70.000"
-],
-[
-  "contohsurat.me",
-  "18",
-  "30",
-  "0%",
-  "961",
-  "/?exp=contohsurat.me&d=5",
-  "Rp75.000"
 ],
 [
   "domainiac.tech",
