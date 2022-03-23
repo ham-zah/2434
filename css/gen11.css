@@ -243,5 +243,6 @@ a:hover {
 /* Footer */
 footer {
   border-top: 1px solid #dee2e6;
-  padding-top: 1rem
+  padding-top: 1rem;
+  padding-bottom: 1rem
 }
