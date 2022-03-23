@@ -71,6 +71,15 @@ for(var trank=[
   "112",
   "/?exp=bisnis.live",
   "Rp120.000"
+],
+[
+  "selagu.me",
+  "15",
+  "31",
+  "9%",
+  "5.020.210",
+  "/?exp=selagu.me",
+  "Rp90.000"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
