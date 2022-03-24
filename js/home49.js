@@ -32,16 +32,16 @@ for(var trank=[
   "12",
   "26",
   "7%",
-  "5.555",
+  "4.892",
   "/?exp=rachmadbagus.com",
-  "Rp100.000"
+  "Rp90.000"
 ],
 [
   "transinema.com",
-  "14",
+  "13",
   "20",
   "0%",
-  "213",
+  "212",
   "/?exp=transinema.com",
   "Rp140.000"
 ],
@@ -50,25 +50,34 @@ for(var trank=[
   "4",
   "30",
   "2%",
-  "316",
+  "318",
   "/?exp=iliamember.com",
-  "Rp70.000"
+  "Rp65.000"
+],
+[
+  "foxpop.co.uk",
+  "21",
+  "30",
+  "0%",
+  "838",
+  "/?exp=foxpop.co.uk",
+  "Rp100.000"
 ],
 [
   "domainiac.tech",
-  "11",
+  "10",
   "20",
   "0%",
-  "378",
+  "375",
   "/?exp=domainiac.tech",
   "Rp50.000"
 ],
 [
   "bisnis.live",
-  "7",
+  "8",
   "15",
   "0%",
-  "112",
+  "111",
   "/?exp=bisnis.live",
   "Rp120.000"
 ],
@@ -88,12 +97,12 @@ for(var tpro=[
 [
   "idn.social",
   "Social",
-  "Rp300.000"
+  "Rp180.000"
 ],
 [
   "lyrics.rocks",
   "Music",
-  "Rp250.000"
+  "Rp220.000"
 ]
 ],i=0;i<tpro.length;i++){const a=doc.createElement("tr");for(var j=0;j<tpro[i].length;j++){const e=doc.createElement("td");e.innerHTML=tpro[i][j],a.appendChild(e)}getTpro.appendChild(a)}
 
