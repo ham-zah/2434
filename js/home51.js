@@ -108,7 +108,7 @@ for(var tpro=[
 
 /* LINK IN TABLE */
 var getTlink=doc.querySelectorAll(".t-link td:nth-child(6)"),addTlink;for(addTlink=0;addTlink<getTlink.length;addTlink++){
-getTlink[addTlink].innerHTML='<a class="text-center" href="'+getTlink[addTlink].innerText+'"></a>'
+getTlink[addTlink].innerHTML='<a class="text-center" style="vertical-align:middle" href="'+getTlink[addTlink].innerText+'"></a>'
 }
 
 /* SOLD */
