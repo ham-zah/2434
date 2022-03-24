@@ -33,8 +33,8 @@ for(var trank=[
   "26",
   "7%",
   "4.892",
-  "/?exp=rachmadbagus.com",
-  "Rp90.000"
+  "Rp90.000",
+  "/?exp=rachmadbagus.com"
 ],
 [
   "transinema.com",
@@ -42,8 +42,8 @@ for(var trank=[
   "20",
   "0%",
   "212",
-  "/?exp=transinema.com",
-  "Rp140.000"
+  "Rp140.000",
+  "/?exp=transinema.com"
 ],
 [
   "iliamember.com",
@@ -51,8 +51,8 @@ for(var trank=[
   "30",
   "2%",
   "318",
-  "/?exp=iliamember.com",
-  "Rp65.000"
+  "Rp65.000",
+  "/?exp=iliamember.com"
 ],
 [
   "foxpop.co.uk",
@@ -60,8 +60,8 @@ for(var trank=[
   "30",
   "0%",
   "838",
-  "/?exp=foxpop.co.uk",
-  "Rp100.000"
+  "Rp100.000",
+  "/?exp=foxpop.co.uk"
 ],
 [
   "domainiac.tech",
@@ -69,8 +69,8 @@ for(var trank=[
   "20",
   "0%",
   "375",
-  "/?exp=domainiac.tech",
-  "Rp50.000"
+  "Rp50.000",
+  "/?exp=domainiac.tech"
 ],
 [
   "bisnis.live",
@@ -78,8 +78,8 @@ for(var trank=[
   "15",
   "0%",
   "111",
-  "/?exp=bisnis.live",
-  "Rp120.000"
+  "Rp120.000",
+  "/?exp=bisnis.live"
 ],
 [
   "selagu.me",
@@ -87,8 +87,8 @@ for(var trank=[
   "31",
   "9%",
   "5.020.210",
-  "/?exp=selagu.me",
-  "Rp90.000"
+  "Rp90.000",
+  "/?exp=selagu.me"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
@@ -107,7 +107,7 @@ for(var tpro=[
 ],i=0;i<tpro.length;i++){const a=doc.createElement("tr");for(var j=0;j<tpro[i].length;j++){const e=doc.createElement("td");e.innerHTML=tpro[i][j],a.appendChild(e)}getTpro.appendChild(a)}
 
 /* LINK IN TABLE */
-var getTlink=doc.querySelectorAll(".t-link td:nth-child(6)"),addTlink;for(addTlink=0;addTlink<getTlink.length;addTlink++){
+var getTlink=doc.querySelectorAll(".t-link td:nth-child(7)"),addTlink;for(addTlink=0;addTlink<getTlink.length;addTlink++){
 getTlink[addTlink].innerHTML='<a href="'+getTlink[addTlink].innerText+'"></a>'
 }
 
