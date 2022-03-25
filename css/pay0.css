@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500&display=swap');
+
+body {
+  font-family: "Muli",sans-serif;
+}
+
+h2 {
+  font-weight: 500
+}
+
+.paylist {
+  
+}
+.paylist span {
+  background: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: inline-block;
+  margin: 7.5px;
+  padding: 10px 10px;
+  width: 200px
+}
+.paylist img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  pointer-events: none
+}
+
+.paybox {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4)
+}
+.paybox-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-300px;opacity:0} 
+  to {top:0;opacity:1}
+}
+@keyframes animatetop {
+  from {top:-300px;opacity:0}
+  to {top:0;opacity:1}
+}
+
+.payclose {
+  cursor: none;
+  color: #000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0 10px
+}
+.paybox-header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd
+}
+.paybox-header img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100px;
+  padding: 10px 16px;
+  pointer-events: none
+}
+.paybox-body {padding: 16px}
+.paybox-body p {
+  margin-top: 0;
+  margin-bottom: 0
+}
+.paybox-body p:not(:first-child) {
+  margin-top: 1rem
+}
+.paybox-body p:not(:last-child) {
+  margin-bottom: 1rem
+}
+.paybox-body span {
+  background: #d9eee1;
+  color:#0f9d58
+}
+.paybox-body ul {
+  margin-bottom: 0;
+  padding-left: 16px
+}
+.paybox-body ul li {
+  list-style-type: square
+}
+.select-all {
+  -webkit-user-select: all;
+  -ms-user-select: all;
+  user-select: all
+}
