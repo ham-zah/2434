@@ -1,5 +1,7 @@
 html {
-  background: #fff repeat 0 0
+  background: #fff repeat 0 0;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 body {
   max-width: 720px;
@@ -101,6 +103,9 @@ a {
 }
 a:hover {
   text-decoration: underline
+}
+b,strong {
+  font-weight: bolder;
 }
 .text-center {
   text-align: center
