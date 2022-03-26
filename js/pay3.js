@@ -1,3 +1,6 @@
+/* TITLE */
+document.title = "Metode Pembayaran - Nama Business";
+
 /* PART */
 var PB1 = '<div id="',
     PB2 = '" class="paybox"><div class="paybox-content"><div class="paybox-header"><span class="payclose">&times;</span><img src="',
@@ -18,7 +21,6 @@ var PB1 = '<div id="',
     payVA = PB1+'payva'+PB2+imgVA+PB3+'<p>BCA : <span>390108881088893</span></p><p>BRI : <span>88810008881088893</span></p><p>BNI : <span>8810008881088893</span></p><p>Mandiri : <span>89508008881088893</span></p><p>CIMB Niaga : <span>8059008881088893</span></p><p>BTPN : <span>800000908881088893</span></p>'+PB4;
 
 rwID.innerHTML=payTAP+payJAGO+payBCAD+payDANA+payVA;
-
 getID.parentNode.replaceChild(rwID,getID);
 
 /* TAP */
