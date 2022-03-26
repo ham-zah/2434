@@ -4,14 +4,15 @@ doc.title = "Metode Pembayaran - Nama Business";
 /* PART */
 var PB1 = '<div id="',
     PB2 = '" class="paybox"><div class="paybox-content"><div class="paybox-header"><span class="payclose">&times;</span><img src="',
-    PB3 = '"/></div><div class="paybox-body">',
+    PB3 = '.svg"/></div><div class="paybox-body">',
     PB4 = '</div></div></div>',
 
 /* IMAGES */
-    imgJAGO = 'https://nama.business/img/logo/jago1.svg',
-    imgBCAD = 'https://nama.business/img/logo/bcad1.svg',
-    imgDANA = 'https://nama.business/img/logo/dana1.svg',
-    imgVA = 'https://paymero.com/wp-content/uploads/2020/07/Virtual-Account-Logo.png',
+    imgLOGO = 'https://nama.business/img/logo/',
+    imgJAGO = imgLOGO+'jago1',
+    imgBCAD = imgLOGO+'bcad1',
+    imgDANA = imgLOGO+'dana1',
+    imgVA = imgLOGO+'va1',
 
 /* PAY */
     payTAP = '<h2 class="text-center">Payment Method</h2><p>Silakan klik metode pembayaran yang diinginkan untuk melihat nomor pembayaran. Kirim bukti transfer untuk divalidasi.</p><div class="paylist text-center"><div id="tapjago"><span><img src="'+imgJAGO+'"/></span></div><div id="tapbcad"><span><img src="'+imgBCAD+'"/></span></div><div id="tapdana"><span><img src="'+imgDANA+'"/></span></div><div id="tapva"><span><img src="'+imgVA+'"/></span></div></div>',
