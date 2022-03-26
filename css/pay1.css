@@ -96,7 +96,11 @@ h2 {
 }
 .paybox-body span {
   background: #d9eee1;
-  color:#0f9d58
+  color: #0f9d58;
+  font-weight: 500;
+  -webkit-user-select: all;
+  -ms-user-select: all;
+  user-select: all
 }
 .paybox-body ul {
   margin-bottom: 0;
@@ -104,9 +108,4 @@ h2 {
 }
 .paybox-body ul li {
   list-style-type: square
-}
-.select-all {
-  -webkit-user-select: all;
-  -ms-user-select: all;
-  user-select: all
 }
