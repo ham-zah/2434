@@ -143,6 +143,20 @@ b,strong {
     border-bottom: 2px solid #ffd700
   }
 
+.select-none {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.select-all {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
 /* BG */
 .gobblue {
   background: #4285f4
