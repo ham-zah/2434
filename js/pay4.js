@@ -1,5 +1,5 @@
 /* TITLE */
-document.title = "Metode Pembayaran - Nama Business";
+doc.title = "Metode Pembayaran - Nama Business";
 
 /* PART */
 var PB1 = '<div id="',
