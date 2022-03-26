@@ -78,10 +78,13 @@ h2 {
 .paybox-header img {
   display: block;
   height: auto;
-  max-width: 100%;
-  width: 100px;
+  max-width: 100px;
+  width: 100%;
   padding: 10px 16px;
   pointer-events: none
+}
+#paybcad img {
+  max-width: 150px
 }
 .paybox-body {padding: 16px}
 .paybox-body p {
