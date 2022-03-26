@@ -21,7 +21,7 @@ var PB1 = '<div id="',
     payDANA = PB1+'paydana'+PB2+imgDANA+PB3+'<p>Nomor : <span>08881088893</span></p><ul><li>Buka aplikasi DANA</li><li>Tap <strong>Kirim</strong></li><li>Tap <strong>Kirim ke Teman</strong></li><li>Masukkan nomor tujuan</li><li>Masukkan nominal yang akan dikirimkan</li><li>Pilih metode pembayaran menggunakan saldo DANA</li><li>Pastikan nomor dan jumlah transfer sudah sesuai</li><li>Tap <strong>Bayar</strong></li><li>Masukkan PIN DANA</li><li>Kirim uang berhasil!</li></ul>'+PB4,
     payVA = PB1+'payva'+PB2+imgVA+PB3+'<p>BCA : <span>390108881088893</span></p><p>BRI : <span>88810008881088893</span></p><p>BNI : <span>8810008881088893</span></p><p>Mandiri : <span>89508008881088893</span></p><p>CIMB Niaga : <span>8059008881088893</span></p><p>BTPN : <span>800000908881088893</span></p>'+PB4;
 
-rwID.innerHTML=payTAP+payJAGO+payBCAD+payDANA+payVA;
+rwID.innerHTML = '<div class="taptopay">'+payTAP+payJAGO+payBCAD+payDANA+payVA+'</div>';
 getID.parentNode.replaceChild(rwID,getID);
 
 /* TAP */
