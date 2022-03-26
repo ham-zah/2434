@@ -152,7 +152,7 @@ exp=[
 ]}
 
 /* TITLE */
-document.title = exp[0]+" - Nama Business Registrant";
+doc.title = exp[0]+" - Nama Business Registrant";
 
 var ket = '<h2>Keterangan :</h2><ul class="square"><li>HISTORY = Riwayat domain</li><li>REGISTER = Waktu pendaftaran domain</li><li>EXPIRED = Waktu expired domain (dapat diperpanjang)</li><li>DA = Domain Authority</li><li>PA = Page Authority</li><li>SS = Spam Score</li><li>MT = Moz Trust</li><li>MR = Moz Rank</li><li>BL = Backlink</li><li>BL EDU = Backlink dari website .edu (pendidikan)</li><li>BL GOV = Backlink dari website .gov (pemerintah)</li></ul>';
 
