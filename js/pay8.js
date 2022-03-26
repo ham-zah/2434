@@ -4,15 +4,15 @@ doc.title = "Metode Pembayaran - Nama Business";
 /* PART */
 var PB1 = '<div id="',
     PB2 = '" class="paybox"><div class="paybox-content"><div class="paybox-header"><span class="payclose">&times;</span><img src="',
-    PB3 = '.svg"/></div><div class="paybox-body">',
+    PB3 = '"/></div><div class="paybox-body">',
     PB4 = '</div></div></div>',
 
 /* IMAGES */
     imgLOGO = 'https://nama.business/img/logo/',
-    imgJAGO = imgLOGO+'jago1',
-    imgBCAD = imgLOGO+'bcad1',
-    imgDANA = imgLOGO+'dana1',
-    imgVA = imgLOGO+'va1',
+    imgJAGO = imgLOGO+'jago1.svg',
+    imgBCAD = imgLOGO+'bcad1.svg',
+    imgDANA = imgLOGO+'dana1.svg',
+    imgVA = imgLOGO+'va1.svg',
 
 /* PAY */
     payTAP = '<h2 class="text-center">Payment Method</h2><p>Silakan klik metode pembayaran yang diinginkan untuk melihat nomor pembayaran. Kirim bukti transfer untuk divalidasi.</p><div class="paylist text-center"><div id="tapjago"><span><img src="'+imgJAGO+'"/></span></div><div id="tapbcad"><span><img src="'+imgBCAD+'"/></span></div><div id="tapdana"><span><img src="'+imgDANA+'"/></span></div><div id="tapva"><span><img src="'+imgVA+'"/></span></div></div>',
