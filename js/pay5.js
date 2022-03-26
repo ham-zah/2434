@@ -8,9 +8,9 @@ var PB1 = '<div id="',
     PB4 = '</div></div></div>',
 
 /* IMAGES */
-    imgJAGO = 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Logo-jago.svg',
+    imgJAGO = 'https://nama.business/img/logo/jago1.svg',
     imgBCAD = 'https://upload.wikimedia.org/wikipedia/commons/f/f7/BCA_Digital.png',
-    imgDANA = 'https://upload.wikimedia.org/wikipedia/commons/7/72/Logo_dana_blue.svg',
+    imgDANA = 'https://nama.business/img/logo/dana1.svg',
     imgVA = 'https://paymero.com/wp-content/uploads/2020/07/Virtual-Account-Logo.png',
 
 /* PAY */
