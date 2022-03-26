@@ -3,8 +3,10 @@
 body {
   font-family: "Muli",sans-serif;
 }
-
 h2 {
+  font-weight: 500
+}
+strong {
   font-weight: 500
 }
 
@@ -72,7 +74,10 @@ h2 {
   float: right;
   font-size: 28px;
   font-weight: bold;
-  padding: 0 10px
+  padding: 0 10px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none
 }
 .paybox-header {
   background-color: #fff;
