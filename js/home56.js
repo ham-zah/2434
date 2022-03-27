@@ -4,25 +4,28 @@ var NamaSold = '<span class="bb_yellow">66</span>';
 /* Home Variable */
 var getTreg = doc.getElementById("t-register"),
     getTrank = doc.getElementById("t-ranked"),
-    getTpro = doc.getElementById("t-premium");
+    getTpro = doc.getElementById("t-premium"),
+    iconFIRE = "<i class='icon-fire'></i>",
+    svgCHECKB = "<i class='svg-checkb'></i>";
 
 /* TABLE REGISTER DOMAIN */
 for(var treg=[
-["com","Rp65.000","<i class='icon-fire'></i>"],
-["co","Rp45.000","<i class='svg-checkb'></i>"],
-["xyz","Rp20.000","Tersedia"],
-["me","Rp30.000","Terbatas"],
-["info","Rp40.000","Tersedia"],
-["tech","Rp30.000","Terbatas"],
-["biz","Rp25.000","Tersedia"],
-["us","Rp35.000","Tersedia"],
-["uk","Rp35.000","Terbatas"],
-["life","Rp40.000","Tersedia"],
-["live","Rp40.000","Tersedia"],
-["cloud","Rp40.000","Tersedia"],
-["cyou","Rp20.000","Tersedia"],
-["company","Rp50.000","Tersedia"],
-["business","Rp50.000","Tersedia"]
+["com","Rp65.000",iconFIRE],
+["co","Rp45.000",svgCHECKB],
+["xyz","Rp20.000",svgCHECKB],
+["me","Rp30.000",iconFIRE],
+["info","Rp40.000",svgCHECKB],
+["tech","Rp30.000",iconFIRE],
+["biz","Rp25.000",svgCHECKB],
+["us","Rp35.000",svgCHECKB],
+["uk","Rp35.000",iconFIRE],
+["co.uk","Rp45.000",iconFIRE],
+["life","Rp40.000",svgCHECKB],
+["live","Rp40.000",svgCHECKB],
+["cloud","Rp40.000",svgCHECKB],
+["cyou","Rp20.000",svgCHECKB],
+["company","Rp50.000",svgCHECKB],
+["business","Rp50.000",svgCHECKB]
 ],i=0;i<treg.length;i++){const e=doc.createElement("tr");for(var j=0;j<treg[i].length;j++){const r=doc.createElement("td");r.innerHTML=treg[i][j],e.appendChild(r)}getTreg.appendChild(e)}
 
 /* TABLE RANKED DOMAIN */
