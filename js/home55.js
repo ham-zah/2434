@@ -8,8 +8,8 @@ var getTreg = doc.getElementById("t-register"),
 
 /* TABLE REGISTER DOMAIN */
 for(var treg=[
-["com","Rp65.000","Terbatas"],
-["co","Rp45.000","Tersedia"],
+["com","Rp65.000","<i class='icon-fire'></i>"],
+["co","Rp45.000","<i class='svg-checkb'></i>"],
 ["xyz","Rp20.000","Tersedia"],
 ["me","Rp30.000","Terbatas"],
 ["info","Rp40.000","Tersedia"],
