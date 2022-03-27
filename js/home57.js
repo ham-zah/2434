@@ -6,26 +6,26 @@ var getTreg = doc.getElementById("t-register"),
     getTrank = doc.getElementById("t-ranked"),
     getTpro = doc.getElementById("t-premium"),
     iconFIRE = "<i class='icon-fire'></i>",
-    svgCHECKB = "<i class='svg-checkb'></i>";
+    svgCHECK = "<i class='svg-check'></i>";
 
 /* TABLE REGISTER DOMAIN */
 for(var treg=[
 ["com","Rp65.000",iconFIRE],
-["co","Rp45.000",svgCHECKB],
-["xyz","Rp20.000",svgCHECKB],
+["co","Rp45.000",svgCHECK],
+["xyz","Rp20.000",svgCHECK],
 ["me","Rp30.000",iconFIRE],
-["info","Rp40.000",svgCHECKB],
+["info","Rp40.000",svgCHECK],
 ["tech","Rp30.000",iconFIRE],
-["biz","Rp25.000",svgCHECKB],
-["us","Rp35.000",svgCHECKB],
+["biz","Rp25.000",svgCHECK],
+["us","Rp35.000",svgCHECK],
 ["uk","Rp35.000",iconFIRE],
 ["co.uk","Rp45.000",iconFIRE],
-["life","Rp40.000",svgCHECKB],
-["live","Rp40.000",svgCHECKB],
-["cloud","Rp40.000",svgCHECKB],
-["cyou","Rp20.000",svgCHECKB],
-["company","Rp50.000",svgCHECKB],
-["business","Rp50.000",svgCHECKB]
+["life","Rp40.000",svgCHECK],
+["live","Rp40.000",svgCHECK],
+["cloud","Rp40.000",svgCHECK],
+["cyou","Rp20.000",svgCHECK],
+["company","Rp50.000",svgCHECK],
+["business","Rp50.000",svgCHECK]
 ],i=0;i<treg.length;i++){const e=doc.createElement("tr");for(var j=0;j<treg[i].length;j++){const r=doc.createElement("td");r.innerHTML=treg[i][j],e.appendChild(r)}getTreg.appendChild(e)}
 
 /* TABLE RANKED DOMAIN */
