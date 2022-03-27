@@ -2,11 +2,12 @@
 var NamaSold = '<span class="bb_yellow">66</span>';
 
 /* Home Variable */
-var getTreg = doc.getElementById("t-register"),
+var getTreg0 = doc.querySelector("t-reg"),
+    getTreg = doc.getElementById("t-register"),
     getTrank = doc.getElementById("t-ranked"),
     getTpro = doc.getElementById("t-premium"),
-    iconFIRE = "<i class='icon-fire'></i>",
-    svgCHECK = "<i class='svg-check'></i>";
+    svgCHECK = "<i class='svg-check'></i>",
+    iconFIRE = "<i class='icon-fire'></i>";
 
 /* TABLE REGISTER DOMAIN */
 for(var treg=[
@@ -27,6 +28,10 @@ for(var treg=[
 ["company","Rp50.000",svgCHECK],
 ["business","Rp50.000",svgCHECK]
 ],i=0;i<treg.length;i++){const e=doc.createElement("tr");for(var j=0;j<treg[i].length;j++){const r=doc.createElement("td");r.innerHTML=treg[i][j],e.appendChild(r)}getTreg.appendChild(e)}
+
+let noteTreg=doc.createElement("div");
+noteTreg.innerHTML='<p>'+svgCHECK+' = Stok Tersedia, '+iconFIRE+' = Stok Terbatas!';
+addAfter(noteTreg,getTreg0);
 
 /* TABLE RANKED DOMAIN */
 for(var trank=[
