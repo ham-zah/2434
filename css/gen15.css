@@ -252,6 +252,25 @@ img {
   text-decoration-thickness:2px;
 }
 
+/* icon & svg */
+i[class^="icon-"] {
+  font-style: normal
+}
+i[class^="svg-"] {
+  content: "";
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat
+}
+i.icon-fire:after {
+  content: "\1F525"
+}
+i.svg-checkb {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z' fill='%230f9d58'/%3E%3C/svg%3E");
+  width: 20px;
+  height: 20px
+}
+
 /* Footer */
 footer {
   border-top: 1px solid #dee2e6;
