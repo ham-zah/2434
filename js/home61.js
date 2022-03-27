@@ -30,7 +30,7 @@ for(var treg=[
 ],i=0;i<treg.length;i++){const e=doc.createElement("tr");for(var j=0;j<treg[i].length;j++){const r=doc.createElement("td");r.innerHTML=treg[i][j],e.appendChild(r)}getTreg.appendChild(e)}
 
 let noteTreg=doc.createElement("div");
-noteTreg.innerHTML='<p class="text-center">'+svgCHECK+' = Stok Tersedia, '+iconFIRE+' = Stok Terbatas!';
+noteTreg.innerHTML='<p class="text-center"><i class="svg-check va-5"></i> = Stok Tersedia, '+iconFIRE+' = Stok Terbatas!';
 addAfter(noteTreg,getTreg0);
 
 /* TABLE RANKED DOMAIN */
