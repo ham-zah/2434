@@ -135,7 +135,7 @@ table>thead {
 #link_to {
   vertical-align: -5px;
 }
-.t-link td:nth-child(7) {
+.t-link th:nth-child(7),.t-link td:nth-child(7) {
   text-align: center
 }
 
