@@ -2,7 +2,7 @@
 var NamaSold = '<span class="bb_yellow">66</span>';
 
 /* Home Variable */
-var getTreg0 = doc.querySelector("t-reg"),
+var getTreg0 = doc.querySelector(".t-reg"),
     getTreg = doc.getElementById("t-register"),
     getTrank = doc.getElementById("t-ranked"),
     getTpro = doc.getElementById("t-premium"),
