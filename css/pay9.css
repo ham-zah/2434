@@ -56,9 +56,6 @@ h2 {
   animation-name: animatetop;
   animation-duration: 0.4s
 }
-#payqris .paybox-content {
-  width: 100%
-}
 
 @-webkit-keyframes animatetop {
   from {top:-300px;opacity:0} 
@@ -96,6 +93,7 @@ h2 {
   max-width: 150px
 }
 .paybox-body {padding: 16px}
+
 .paybox-body p {
   margin-top: 0;
   margin-bottom: 0
@@ -121,6 +119,18 @@ h2 {
 .paybox-body ul li {
   list-style-type: square
 }
+.paybox-body img {
+  display: block;
+  height: auto;
+  max-width: 500px;
+  width: 100%;
+  pointer-events: none
+}
+
+/* PAY QRIS */
+#payqris .paybox-content {
+  width: 100%
+}
 #payqris .paybox-body {
   padding-left: 0;
   padding-right: 0
@@ -129,12 +139,8 @@ h2 {
   padding-left: 16px;
   padding-right: 16px
 }
-.paybox-body img {
-  display: block;
-  height: auto;
-  max-width: 500px;
-  width: 100%;
-}
+
+/* Responsive */
 @media (min-width:600px) {
 #payqris .paybox-content {
   width: 60%
