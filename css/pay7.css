@@ -49,6 +49,7 @@ h2 {
   margin: auto;
   padding: 0;
   width: 80%;
+  max-width: 720px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
@@ -88,7 +89,7 @@ h2 {
   padding: 10px 16px;
   pointer-events: none
 }
-#paybcad img {
+#paybcad .paybox-header img,#payqris .paybox-header img {
   max-width: 150px
 }
 .paybox-body {padding: 16px}
@@ -116,4 +117,31 @@ h2 {
 }
 .paybox-body ul li {
   list-style-type: square
+}
+#payqris .paybox-body {
+  padding-left: 0;
+  padding-right: 0
+}
+#payqris .paybox-body p {
+  padding-left: 16px;
+  padding-right: 16px
+}
+.paybox-body img {
+  display: block;
+  height: auto;
+  max-width: 500px;
+  width: 100%;
+}
+@media (min-width:600px) {
+#payqris .paybox-content {
+  width: 60%
+}
+#payqris .paybox-body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 500px;
+  width: 100%;
+}
 }
