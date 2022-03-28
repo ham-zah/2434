@@ -56,6 +56,9 @@ h2 {
   animation-name: animatetop;
   animation-duration: 0.4s
 }
+#payqris .paybox-content {
+  width: 100%
+}
 
 @-webkit-keyframes animatetop {
   from {top:-300px;opacity:0} 
