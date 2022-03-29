@@ -1,5 +1,5 @@
 /* Home Setting */
-var NamaSold = '<span class="bb_yellow">66</span>';
+var NamaSold = '<span class="bb_yellow">69</span>';
 
 /* Home Variable */
 var getTreg0 = doc.querySelector(".t-reg"),
