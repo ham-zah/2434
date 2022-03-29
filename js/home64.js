@@ -97,6 +97,15 @@ for(var trank=[
   "5.020.210",
   "Rp90.000",
   "/?exp=selagu.me"
+],
+[
+  "biografi.xyz",
+  "9",
+  "14",
+  "0%",
+  "1.119",
+  "Rp50.000",
+  "/?exp=biografi.xyz"
 ]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
