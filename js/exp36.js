@@ -150,6 +150,23 @@ exp=[
   "40",
   "0"
 ]}
+/* BIOGRAFI.XYZ */
+if(ls.match(/\bexp=biografi.xyz$/)){
+exp=[
+  "biografi.xyz",
+  "50.000",
+  "2016",
+  "29-03-2022",
+  "29-03-2023",
+  "8",
+  "14",
+  "0%",
+  "1",
+  "1.4",
+  "1.119",
+  "0",
+  "0"
+]}
 
 /* TITLE */
 doc.title = exp[0]+" - Nama Business Registrant";
