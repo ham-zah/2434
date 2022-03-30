@@ -125,7 +125,7 @@ for(var tpro=[
 
 /* LINK IN TABLE */
 var getTlink=doc.querySelectorAll(".t-link td:nth-child(7)"),addTlink;for(addTlink=0;addTlink<getTlink.length;addTlink++){
-getTlink[addTlink].innerHTML='<a href="'+getTlink[addTlink].innerText+'"></a>'
+getTlink[addTlink].innerHTML='<a href="'+getTlink[addTlink].innerText+'" oncontextmenu="return false"></a>'
 }
 
 /* SOLD */
