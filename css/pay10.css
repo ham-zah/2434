@@ -89,7 +89,7 @@ h2 {
   padding: 10px 16px;
   pointer-events: none
 }
-#paybcad .paybox-header img,#payqris .paybox-header img {
+#paybcad .paybox-header img,#paydanamon .paybox-header img,#payqris .paybox-header img {
   max-width: 150px
 }
 .paybox-body {padding: 16px}
