@@ -25,6 +25,8 @@ for(var treg=[
 ["live","Rp40.000",svgCHECK],
 ["cloud","Rp40.000",svgCHECK],
 ["cyou","Rp20.000",svgCHECK],
+["shop","Rp55.000",iconFIRE],
+["store","Rp55.000",iconFIRE],
 ["company","Rp50.000",svgCHECK],
 ["business","Rp50.000",svgCHECK]
 ],i=0;i<treg.length;i++){const e=doc.createElement("tr");for(var j=0;j<treg[i].length;j++){const r=doc.createElement("td");r.innerHTML=treg[i][j],e.appendChild(r)}getTreg.appendChild(e)}
