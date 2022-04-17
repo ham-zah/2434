@@ -112,6 +112,11 @@ for(var trank=[
 /* TABLE PREMIUM DOMAIN */
 for(var tpro=[
 [
+  "financial.tech",
+  "Keuangan, Teknologi",
+  "Rp150.000"
+],
+[
   "idn.design",
   "Design",
   "Rp150.000"
