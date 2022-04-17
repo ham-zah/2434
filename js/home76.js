@@ -118,17 +118,17 @@ for(var tpro=[
 ],
 [
   "idn.design",
-  "Design",
+  "Desain",
   "Rp150.000"
 ],
 [
   "idn.social",
-  "Social",
+  "Sosial",
   "Rp180.000"
 ],
 [
   "lyrics.rocks",
-  "Music",
+  "Musik",
   "Rp220.000"
 ]
 ],i=0;i<tpro.length;i++){const a=doc.createElement("tr");for(var j=0;j<tpro[i].length;j++){const e=doc.createElement("td");e.innerHTML=tpro[i][j],a.appendChild(e)}getTpro.appendChild(a)}
