@@ -138,5 +138,11 @@ var getTlink=doc.querySelectorAll(".t-link td:nth-child(7)"),addTlink;for(addTli
 getTlink[addTlink].innerHTML='<a href="'+getTlink[addTlink].innerText+'" oncontextmenu="return false"></a>'
 }
 
+/* SET ATTR */
+var setTrans = document.querySelectorAll("#t-premium td:nth-child(2)");
+for (let i = 0; i < setTrans.length; i++) {
+  setTrans[i].setAttribute("translate", "yes");
+}
+
 /* SOLD */
 doc.getElementById("nsold").innerHTML=NamaSold;
