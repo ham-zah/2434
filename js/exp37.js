@@ -31,23 +31,6 @@ exp=[
   "10"
 ]}
 
-/* RACHMADBAGUS.COM */
-if(ls.match(/\bexp=rachmadbagus.com$/)){
-exp=[
-  "rachmadbagus.com",
-  "90.000",
-  "2018",
-  "31-01-2022",
-  "31-01-2023",
-  "12",
-  "26",
-  "7%",
-  "3",
-  "2.6",
-  "4.892",
-  "14",
-  "35"
-]}
 /* TRANSINEMA.COM */
 if(ls.match(/\bexp=transinema.com$/)){
 exp=[
@@ -62,23 +45,6 @@ exp=[
   "2",
   "2.0",
   "212",
-  "0",
-  "0"
-]}
-/* ILIAMEMBER.COM */
-if(ls.match(/\bexp=iliamember.com$/)){
-exp=[
-  "iliamember.com",
-  "65.000",
-  "2020",
-  "31-12-2021",
-  "31-12-2022",
-  "4",
-  "30",
-  "2%",
-  "3",
-  "3.0",
-  "318",
   "0",
   "0"
 ]}
@@ -150,20 +116,20 @@ exp=[
   "40",
   "0"
 ]}
-/* BIOGRAFI.XYZ */
-if(ls.match(/\bexp=biografi.xyz$/)){
+/* KIOS.STORE */
+if(ls.match(/\bexp=kios.store$/)){
 exp=[
-  "biografi.xyz",
-  "50.000",
-  "2016",
-  "29-03-2022",
-  "29-03-2023",
+  "kios.store",
+  "120.000",
+  "2021",
+  "19-04-2022",
+  "19-04-2023",
   "8",
-  "14",
-  "0%",
-  "1",
-  "1.4",
-  "1.119",
+  "27",
+  "2%",
+  "3",
+  "2.7",
+  "137",
   "0",
   "0"
 ]}
