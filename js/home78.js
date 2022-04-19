@@ -1,5 +1,5 @@
 /* Home Setting */
-var NamaSold = '<span class="bb_yellow">79</span>';
+var NamaSold = '<span class="bb_yellow">81</span>';
 
 /* Home Variable */
 var getTreg0 = doc.querySelector(".t-reg"),
@@ -45,15 +45,6 @@ addAfter(noteTreg,getTreg0);
 /* TABLE RANKED DOMAIN */
 for(var trank=[
 [
-  "rachmadbagus.com",
-  "12",
-  "26",
-  "7%",
-  "4.892",
-  "Rp90.000",
-  "/?exp=rachmadbagus.com"
-],
-[
   "transinema.com",
   "13",
   "20",
@@ -61,15 +52,6 @@ for(var trank=[
   "212",
   "Rp140.000",
   "/?exp=transinema.com"
-],
-[
-  "iliamember.com",
-  "4",
-  "30",
-  "2%",
-  "318",
-  "Rp65.000",
-  "/?exp=iliamember.com"
 ],
 [
   "foxpop.co.uk",
