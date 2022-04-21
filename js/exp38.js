@@ -31,23 +31,6 @@ exp=[
   "10"
 ]}
 
-/* TRANSINEMA.COM */
-if(ls.match(/\bexp=transinema.com$/)){
-exp=[
-  "transinema.com",
-  "140.000",
-  "2002",
-  "24-01-2022",
-  "24-01-2023",
-  "13",
-  "20",
-  "0%",
-  "2",
-  "2.0",
-  "212",
-  "0",
-  "0"
-]}
 /* FOXPOP.CO.UK */
 if(ls.match(/\bexp=foxpop.co.uk$/)){
 exp=[
