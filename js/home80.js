@@ -22,6 +22,9 @@ for(var treg=[
 ["us","Rp35.000",svgCHECK],
 ["uk","Rp35.000",iconFIRE],
 ["co.uk","Rp45.000",iconFIRE],
+["ru.com","Rp15.000",svgCHECK],
+["sa.com","Rp15.000",svgCHECK],
+["za.com","Rp15.000",svgCHECK],
 /* COUNTRY End */
 ["online","Rp25.000",svgCHECK],
 ["site","Rp25.000",svgCHECK],
