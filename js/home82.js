@@ -99,7 +99,7 @@ for(var tpro=[
 [
   "finansial.tech",
   "Keuangan, Teknologi",
-  "Rp150.000"
+  "Rp120.000"
 ],
 [
   "idn.design",
@@ -109,12 +109,22 @@ for(var tpro=[
 [
   "idn.social",
   "Sosial",
-  "Rp180.000"
+  "Rp140.000"
 ],
 [
   "lyrics.rocks",
   "Musik",
-  "Rp220.000"
+  "Rp180.000"
+],
+[
+  "lyrics.ru.com",
+  "Musik",
+  "Rp75.000"
+],
+[
+  "convert.ru.com",
+  "Teknologi",
+  "Rp75.000"
 ]
 ],i=0;i<tpro.length;i++){const a=doc.createElement("tr");for(var j=0;j<tpro[i].length;j++){const e=doc.createElement("td");e.innerHTML=tpro[i][j],a.appendChild(e)}getTpro.appendChild(a)}
 
