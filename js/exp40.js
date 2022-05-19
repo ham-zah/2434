@@ -31,11 +31,28 @@ exp=[
   "10"
 ]}
 
+/* NETUTER.XYZ */
+if(ls.match(/\bexp=netuter.xyz$/)){
+exp=[
+  "netuter.xyz",
+  "60.000",
+  "2021",
+  "18-05-2022",
+  "18-05-2022",
+  "45",
+  "33",
+  "24%",
+  "3",
+  "3.3",
+  "2.511",
+  "0",
+  "7"
+]}
 /* INFOMEREK.XYZ */
 if(ls.match(/\bexp=infomerek.xyz$/)){
 exp=[
   "infomerek.xyz",
-  "60.000",
+  "45.000",
   "2017",
   "18-05-2022",
   "18-05-2022",
@@ -47,6 +64,23 @@ exp=[
   "2.709",
   "6",
   "0"
+]}
+/* LIMULOID.XYZ */
+if(ls.match(/\bexp=limuloid.xyz$/)){
+exp=[
+  "limuloid.xyz",
+  "30.000",
+  "2021",
+  "19-05-2022",
+  "19-05-2022",
+  "12",
+  "29",
+  "6%",
+  "3",
+  "2.9",
+  "626",
+  "21",
+  "1"
 ]}
 /* FOXPOP.CO.UK */
 if(ls.match(/\bexp=foxpop.co.uk$/)){
