@@ -48,13 +48,31 @@ addAfter(noteTreg,getTreg0);
 /* TABLE RANKED DOMAIN */
 for(var trank=[
 [
+  "netuter.xyz",
+  "45",
+  "33",
+  "24%",
+  "2.511",
+  "Rp60.000",
+  "/?exp=netuter.xyz"
+],
+[
   "infomerek.xyz",
   "8",
   "29",
   "10%",
   "2.709",
-  "Rp60.000",
+  "Rp45.000",
   "/?exp=infomerek.xyz"
+],
+[
+  "limuloid.xyz",
+  "12",
+  "29",
+  "6%",
+  "626",
+  "Rp30.000",
+  "/?exp=limuloid.xyz"
 ],
 [
   "foxpop.co.uk",
