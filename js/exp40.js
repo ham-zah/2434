@@ -48,125 +48,24 @@ exp=[
   "0",
   "7"
 ]}
-/* INFOMEREK.XYZ */
-if(ls.match(/\bexp=infomerek.xyz$/)){
+/* MALAYSIAPOS.COM */
+if(ls.match(/\bexp=malaysiapos.com$/)){
 exp=[
-  "infomerek.xyz",
-  "45.000",
-  "2017",
-  "18-05-2022",
-  "18-05-2022",
-  "8",
-  "29",
-  "10%",
-  "3",
-  "2.9",
-  "2.709",
-  "6",
-  "0"
-]}
-/* LIMULOID.XYZ */
-if(ls.match(/\bexp=limuloid.xyz$/)){
-exp=[
-  "limuloid.xyz",
-  "30.000",
-  "2021",
-  "19-05-2022",
-  "19-05-2022",
-  "12",
-  "29",
-  "6%",
+  "malaysiapos.com",
+  "140.000",
+  "2022",
+  "07-02-2022",
+  "07-02-2023",
+  "10",
+  "20",
+  "0%",
   "3",
   "2.9",
   "626",
   "21",
   "1"
 ]}
-/* FOXPOP.CO.UK */
-if(ls.match(/\bexp=foxpop.co.uk$/)){
-exp=[
-  "foxpop.co.uk",
-  "100.000",
-  "2001",
-  "13-01-2022",
-  "13-01-2023",
-  "21",
-  "30",
-  "0%",
-  "3",
-  "3.0",
-  "838",
-  "289",
-  "0"
-]}
-/* DOMAINIAC.TECH */
-if(ls.match(/\bexp=domainiac.tech$/)){
-exp=[
-  "domainiac.tech",
-  "50.000",
-  "2018",
-  "07-02-2022",
-  "07-02-2023",
-  "10",
-  "20",
-  "0%",
-  "2",
-  "2.0",
-  "375",
-  "0",
-  "0"
-]}
-/* BISNIS.LIVE */
-if(ls.match(/\bexp=bisnis.live$/)){
-exp=[
-  "bisnis.live",
-  "120.000",
-  "2018",
-  "13-02-2022",
-  "13-02-2023",
-  "8",
-  "15",
-  "0%",
-  "2",
-  "1.5",
-  "111",
-  "0",
-  "0"
-]}
-/* SELAGU.ME */
-if(ls.match(/\bexp=selagu.me$/)){
-exp=[
-  "selagu.me",
-  "90.000",
-  "2019",
-  "23-03-2022",
-  "23-03-2023",
-  "15",
-  "31",
-  "9%",
-  "3",
-  "3.1",
-  "5.020.210",
-  "40",
-  "0"
-]}
-/* KIOS.STORE */
-if(ls.match(/\bexp=kios.store$/)){
-exp=[
-  "kios.store",
-  "120.000",
-  "2021",
-  "19-04-2022",
-  "19-04-2023",
-  "8",
-  "27",
-  "2%",
-  "3",
-  "2.7",
-  "137",
-  "0",
-  "0"
-]}
+
 
 /* TITLE */
 doc.title = exp[0]+" - Nama Business Registrant";
