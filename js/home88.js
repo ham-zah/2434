@@ -57,68 +57,13 @@ for(var trank=[
   "/?exp=netuter.xyz"
 ],
 [
-  "infomerek.xyz",
-  "8",
-  "29",
-  "10%",
-  "2.709",
-  "Rp45.000",
-  "/?exp=infomerek.xyz"
-],
-[
-  "limuloid.xyz",
-  "12",
-  "29",
-  "6%",
-  "626",
-  "Rp30.000",
-  "/?exp=limuloid.xyz"
-],
-[
-  "foxpop.co.uk",
+  "malaysiapos.com",
   "21",
-  "30",
-  "0%",
-  "838",
-  "Rp100.000",
-  "/?exp=foxpop.co.uk"
-],
-[
-  "domainiac.tech",
-  "10",
-  "20",
-  "0%",
-  "375",
-  "Rp50.000",
-  "/?exp=domainiac.tech"
-],
-[
-  "bisnis.live",
-  "8",
-  "15",
-  "0%",
-  "111",
-  "Rp120.000",
-  "/?exp=bisnis.live"
-],
-[
-  "selagu.me",
-  "15",
-  "31",
-  "9%",
-  "5.020.210",
-  "Rp90.000",
-  "/?exp=selagu.me"
-],
-[
-  "kios.store",
-  "8",
-  "27",
-  "2%",
-  "137",
-  "Rp120.000",
-  "/?exp=kios.store"
-]
+  "36",
+  "5%",
+  "17.624",
+  "Rp150.000",
+  "/?exp=malaysiapos.com"
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
 /* TABLE PREMIUM DOMAIN */
