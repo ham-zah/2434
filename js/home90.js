@@ -64,6 +64,7 @@ for(var trank=[
   "17.624",
   "Rp150.000",
   "/?exp=malaysiapos.com"
+]
 ],i=0;i<trank.length;i++){const a=doc.createElement("tr");for(var j=0;j<trank[i].length;j++){const e=doc.createElement("td");e.innerHTML=trank[i][j],a.appendChild(e)}getTrank.appendChild(a)}
 
 /* TABLE PREMIUM DOMAIN */
@@ -72,6 +73,7 @@ for(var tpro=[
   "nama.ekstensi",
   "Tag1, Tag2",
   "Rp100.000"
+]
 ],i=0;i<tpro.length;i++){const a=doc.createElement("tr");for(var j=0;j<tpro[i].length;j++){const e=doc.createElement("td");e.innerHTML=tpro[i][j],a.appendChild(e)}getTpro.appendChild(a)}
 
 /* LINK IN TABLE */
