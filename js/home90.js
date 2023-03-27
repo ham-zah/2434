@@ -69,35 +69,9 @@ for(var trank=[
 /* TABLE PREMIUM DOMAIN */
 for(var tpro=[
 [
-  "finansial.tech",
-  "Keuangan, Teknologi",
-  "Rp120.000"
-],
-[
-  "idn.design",
-  "Desain",
-  "Rp150.000"
-],
-[
-  "idn.social",
-  "Sosial",
-  "Rp140.000"
-],
-[
-  "lyrics.rocks",
-  "Musik",
-  "Rp180.000"
-],
-[
-  "lyrics.ru.com",
-  "Musik",
-  "Rp75.000"
-],
-[
-  "convert.ru.com",
-  "Teknologi",
-  "Rp75.000"
-]
+  "nama.ekstensi",
+  "Tag1, Tag2",
+  "Rp100.000"
 ],i=0;i<tpro.length;i++){const a=doc.createElement("tr");for(var j=0;j<tpro[i].length;j++){const e=doc.createElement("td");e.innerHTML=tpro[i][j],a.appendChild(e)}getTpro.appendChild(a)}
 
 /* LINK IN TABLE */
